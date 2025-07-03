@@ -18,10 +18,12 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 		UserDetails userDetail = new UserDetails();
 		userDetail.setUserId("123");
 		userDetail.setUserName("ravi");
+		userDetail.setPassword("123123");
 		userDetail.setUserAddress("Hyd");
 		UserDetails userDetail1 = new UserDetails();
 		userDetail1.setUserId("456");
 		userDetail1.setUserName("kumar");
+		userDetail.setPassword("123123");
 		userDetail1.setUserAddress("Banglore");
 		userDetails.add(userDetail);
 		userDetails.add(userDetail1);
